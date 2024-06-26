@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    background-color: #121212;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('images/img.png');
+    background-blend-mode: darken; 
+}
+
+.header-text {
+    width: 50vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.header-title {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.header-link {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.searchbar-container {
+    display: flex;
+    width: 50vw;
+    margin-top: 12vh;
+    background-color: transparent;
+}
+
+.search-bar {
+    width: 40vw;
+    height: 6vh;
+    border: none;
+    background-color: #2E2E2F;
+    color: #A5A5A5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+}
+
+
+.search-button {
+    width: 10vw;
+    background-color: transparent;
+    height: 6vh;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #4B4B4B;
+    color: white;
+}
+
+.search-button:hover {
+    background-color: #716f6f;
+    cursor: pointer;
+}
+
+.search-button:active {
+    background-color: #504f4f; 
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-exploring-container {
+    text-align: center;
+}
+
+.movie-roll-img {
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.start-exploring {
+    color: #787878;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-more-movies {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.plus-img {
+    height: 12px;
+    margin-right: 4px;
+}

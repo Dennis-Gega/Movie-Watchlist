@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Movie Watchlist</title>
 </head>
 <body>
    <header>
-        <h1>Find Your Film</h1>
-        <h2>My Watchlist</h2>
+        <div class="header-text">
+            <h1 class="header-title">Find Your Film</h1>
+            <a class="header-link" href="watchlist.html">My Watchlist</a>
+        </div>
+        <div class="searchbar-container">
+            <input id="search-bar" class="search-bar" type="search" placeholder="Casablanca"/>
+            <button id="search-button" class="search-button">Search</button>
+        </div>
    </header> 
+   <main>
+        <div class="start-exploring-container">
+            <img src="images/movieroll.png" class="movie-roll-img">
+            <p class="start-exploring">Start Exploring</p>
+        </div>
+   </main>
    <script src="script.js"></script>
 </body>
 </html>
