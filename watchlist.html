@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="styles.css">
     <title>My Watchlist</title>
 </head>
-<body>
-   <header>
+<body id="watchlist-body">
+   <header id="header">
         <div class="header-text">
             <h1 class="header-title">My Watchlist</h1>
             <a class="header-link" href="index.html">Search for movies</a>
         </div>
     </header> 
-    <main>
-        <div class="start-exploring-container">
+    <main id="main">
+        <div id="start-exploring-container" class="start-exploring-container">
             <p class="start-exploring">Your watchlist is looking a little empty...</p>
             <a class="add-more-movies" href="index.html"><img class="plus-img" src="images/plus.png" alt="plus">Let's add more movies!</a>
         </div>
+        <div id="watchlist"></div>
    </main>
+   <script src="watchlist.js"></script>
 </body>
 </html>

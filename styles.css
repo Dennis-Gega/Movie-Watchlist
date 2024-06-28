@@ -120,3 +120,104 @@ main {
     height: 12px;
     margin-right: 4px;
 }
+
+.no-movie-found {
+    font-size: 20px;
+    font-weight: bold;
+    color: #787878;
+}
+
+.movie-card { 
+    margin-left: 10vh;
+    display: flex;
+    width: 70vw;
+    height: 30wh;
+}
+
+.movie-poster-container {
+    margin-right: 2vw;
+}
+
+.movie-poster {
+    height: 30vh;
+    width: 20vh;
+}
+
+.movie-info {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 10vh;
+}
+
+.title-rating, .runtime-genre {
+    display: flex;
+    align-items: end;
+}
+
+.title-rating {
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+.movie-title {
+    color: white;
+    font-size: 1.75rem;
+    margin-right: 7px;
+}
+
+.star {
+    height: 1rem;
+    margin-right: 3px;
+}
+
+.movie-rating {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+}
+
+.runtime-genre {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+.movie-runtime {
+   margin-right: 15px; 
+}
+
+.movie-genre {
+    margin-right: 15px;
+}
+
+.plus-small, .minus-small {
+    height: 10px;
+}
+
+.add-to-watchlist, .remove-from-watchlist {
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-watchlist:hover, .remove-from-watchlist:hover {
+    opacity: .8;
+}
+
+.add-to-watchlist:active, .remove-from-watchlist:hover {
+    opacity: .4;
+}
+
+.movie-description {
+    max-width: 50vw;
+    color: #A5A5A5;
+}
+
+hr {
+    background-color: #2C2C2C;
+    height: 2px;
+    border: 0;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
