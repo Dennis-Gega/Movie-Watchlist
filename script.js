@@ -9,10 +9,11 @@ let watchlist = JSON.parse(localStorage.getItem('watchlist')) || [];
 
 searchButtonEl.addEventListener('click', handleClick)  
 
+
 async function handleClick() {
 
     startExploringEl.style.display = "none"
-    const response = await fetch(`http://www.omdbapi.com/?apikey=f98439bf&s=${searchBarEl.value}`)
+    const response = await fetch(`http://www.omdbapi.com/?apikey=f98439bf\&s=${searchBarEl.value}`)
     const data = await response.json()
     const movies = data.Search
     let html = ''
